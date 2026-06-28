@@ -1,0 +1,4 @@
+interface:
+  display_name: "Consult Claude"
+  short_description: "Get Opus 4.8 second opinions"
+  default_prompt: "Use $consult-claude to get a concise second opinion on this plan before implementing."
