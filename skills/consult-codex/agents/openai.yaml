@@ -1,0 +1,4 @@
+interface:
+  display_name: "Consult Codex"
+  short_description: "Get GPT-5.5 xhigh second opinions"
+  default_prompt: "Use $consult-codex to get a concise GPT-5.5 xhigh second opinion on this plan."
