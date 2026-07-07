@@ -10,6 +10,7 @@ Personal AI agent skills in the general `skills/<name>/SKILL.md` format used by 
 - `consult-codex`: Use Codex CLI as an external GPT-5.5 xhigh advisor for second opinions or collaborative research.
 - `formal-writing`: Draft or polish formal writing so it is clear, natural, and human.
 - `natural-default-voice`: Make the agent's normal user-facing voice natural, casual, plainspoken, and human.
+- `notion-task-capture`: Capture relevant conversation tasks into Notion's task tracker as Draft tasks.
 
 ## Install
 
