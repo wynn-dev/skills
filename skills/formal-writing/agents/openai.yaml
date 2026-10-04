@@ -1,6 +1,0 @@
-interface:
-  display_name: "Formal Writing"
-  short_description: "Write formal prose that still feels human"
-  default_prompt: "Use $formal-writing to draft a polished formal message without AI-sounding filler."
-policy:
-  allow_implicit_invocation: true

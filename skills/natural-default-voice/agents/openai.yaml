@@ -1,6 +1,0 @@
-interface:
-  display_name: "Natural Default Voice"
-  short_description: "Use a natural everyday agent voice"
-  default_prompt: "Use $natural-default-voice to answer in a natural, plainspoken style."
-policy:
-  allow_implicit_invocation: true

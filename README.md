@@ -1,19 +1,44 @@
 # Skills
 
-Personal AI agent skills in the general `skills/<name>/SKILL.md` format used by the Vercel Labs skills repository.
+A public collection of personal agent skills I use day to day. They follow the [skills.sh](https://www.skills.sh/) convention (`skills/<name>/SKILL.md`), so they work with Claude Code, Codex, Cursor, and other supported agents.
 
-## Available skills
+## Skills
 
-- `casual-writing`: Rewrite, draft, or tune everyday writing so it sounds natural, casual, and human.
-- `code-review`: Review proposed code changes and return actionable bug findings.
-- `consult-claude`: Use Claude Code CLI as an external Opus 4.8 xhigh advisor for second opinions or collaborative research.
-- `consult-codex`: Use Codex CLI as an external GPT-5.5 xhigh advisor for second opinions or collaborative research.
-- `formal-writing`: Draft or polish formal writing so it is clear, natural, and human.
-- `natural-default-voice`: Make the agent's normal user-facing voice natural, casual, plainspoken, and human.
-- `notion-task-capture`: Capture relevant conversation tasks into Notion's task tracker as Draft tasks.
+| Command | What it does |
+| --- | --- |
+| `/fix-findings <findings>` | Checks each reviewer finding, fixes the valid ones in PRs, and asks when something needs a product call. |
+| `/review-merge [PRs]` | Reviews the PRs from the current conversation (or the ones listed), then merges them. |
+
+Both are slash-command only in Claude Code, so the agent won't trigger them on its own.
 
 ## Install
 
+Install everything:
+
 ```bash
 npx skills add wynn-dev/skills
+```
+
+Install globally (available in every project):
+
+```bash
+npx skills add wynn-dev/skills -g
+```
+
+Install a single skill:
+
+```bash
+npx skills add wynn-dev/skills --skill fix-findings
+```
+
+List the skills in this repo without installing:
+
+```bash
+npx skills add wynn-dev/skills --list
+```
+
+Update installed skills:
+
+```bash
+npx skills update
 ```
