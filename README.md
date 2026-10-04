@@ -9,7 +9,7 @@ A public collection of personal agent skills I use day to day. They follow the [
 | `/fix-findings <findings>` | Checks each reviewer finding, fixes the valid ones in PRs, and asks when something needs a product call. |
 | `/review-merge [PRs]` | Reviews the PRs from the current conversation (or the ones listed), then merges them. |
 
-Both are slash-command only in Claude Code, so the agent won't trigger them on its own.
+Both are slash-command only in Claude Code and Codex, so the agent won't trigger them on its own.
 
 ## Install
 
