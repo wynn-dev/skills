@@ -6,7 +6,7 @@ A public collection of personal agent skills I use day to day. They follow the [
 
 | Command | What it does |
 | --- | --- |
-| `/cleanup [paths]` | Hunts for overcomplicated code, stale migrations, and useless tests, then simplifies them in PRs. |
+| `/cleanup [paths]` | Hunts for overcomplicated code, stale migrations, and useless tests, lists them, then fixes the ones you pick in PRs. |
 | `/fix-findings <findings>` | Checks each reviewer finding, fixes the valid ones in PRs, and asks when something needs a product call. |
 | `/review-merge [PRs]` | Reviews the PRs from the current conversation (or the ones listed), then merges them. |
 
